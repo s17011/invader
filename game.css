@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #47266e;
+}
+
+canvas#display {
+    width: 800px;
+    height: 550px;
+    background-color: black;
+    margin: 2em auto;
+    display: block;
+}
+
+div#game_score {
+    text-align: center;
+    width: 150px;
+    height: 1.5em;
+    display: block;
+    margin: 1px auto;
+    background-color: orange;
+    line-height: 1.5em;
+    vertical-align: middle;
+    font-size: 12pt;
+}
